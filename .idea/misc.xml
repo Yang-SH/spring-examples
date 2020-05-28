@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-helloWorld" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_aop_log" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_druid" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_jsp" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-helloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_aop_log/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_https/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jsp/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
