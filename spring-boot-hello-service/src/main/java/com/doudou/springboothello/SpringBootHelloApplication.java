@@ -7,7 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan(basePackages = {"com.doudou.web"})
 @SpringBootApplication
-//  激活 Eureka 中的DiscoveryClient实现（自动化配置，创建DiscoveryClient接口针对Eureka客户端的EurekaDiscoveryClient实例）
+//  主类中通过加上@EnableDiscoveryClient,激活 Eureka 中的DiscoveryClient实现
+//  （自动化配置，创建DiscoveryClient接口针对Eureka客户端的EurekaDiscoveryClient实例）
 @EnableDiscoveryClient
 public class SpringBootHelloApplication {
 
