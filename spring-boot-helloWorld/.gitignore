@@ -59,3 +59,4 @@ hs_err_pid*
 out
 gen
 target
+*.kotlin_module
