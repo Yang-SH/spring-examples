@@ -8,18 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="springboot_druid" />
+        <module name="eureka-server" />
+        <module name="springboot_https" />
+        <module name="spring-boot-hello-service" />
         <module name="spring_aop_log" />
         <module name="springboot_jsp" />
-        <module name="spring-boot-helloWorld" />
-        <module name="springboot_https" />
         <module name="springboot_jpa" />
+        <module name="springboot_druid" />
+        <module name="spring-boot-helloWorld" />
         <module name="spring-boot-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="6">
       <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="peer1" target="1.8" />
+      <module name="peer2" target="1.8" />
       <module name="spring-boot-hello" target="1.8" />
+      <module name="spring-boot-hello-service" target="1.8" />
       <module name="spring-boot-helloWorld" target="1.8" />
       <module name="spring_aop_log" target="1.8" />
       <module name="springboot_druid" target="1.8" />
@@ -31,6 +37,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="eureka-server" options="" />
       <module name="spring-boot-helloWorld" options="-parameters" />
       <module name="spring_aop_log" options="-parameters" />
       <module name="springboot_https" options="-parameters" />
