@@ -11,7 +11,7 @@
 
     <groupId>com.doudou</groupId>
     <artifactId>spring-boot-hello-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-boot-hello-service</name>
     <description>Demo project for Spring Boot</description>
 
