@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 服务注册，会将controller中所有方法全都映射出去，给服务消费者调用
+ */
 @RestController
 public class HelloController {
 
@@ -17,10 +20,17 @@ public class HelloController {
     private DiscoveryClient client;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String index() {
+    public String hello() {
         ServiceInstance instance = client.getLocalServiceInstance();
         logger.info("/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
         return "Hello World";
+    }
+
+    @RequestMapping(value = "/say", method = RequestMethod.GET)
+    public String say() {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        logger.info("/say,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
+        return "say what";
     }
 
 }
