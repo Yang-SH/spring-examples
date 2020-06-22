@@ -38,6 +38,12 @@
             <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
 
+        <!--    短路由依赖    -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
