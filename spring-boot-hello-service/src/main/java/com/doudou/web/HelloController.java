@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 /**
  * 服务注册，会将controller中所有方法全都映射出去，给服务消费者调用
  */
@@ -20,10 +22,19 @@ public class HelloController {
     private DiscoveryClient client;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String hello() {
+    public String hello() throws Exception {
+//        ServiceInstance instance = client.getLocalServiceInstance();
+//        logger.info("/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
+//        return "Hello World";
+
         ServiceInstance instance = client.getLocalServiceInstance();
+        //让处理线程等待几秒钟
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleepTime:" + sleepTime);
+        Thread.sleep(sleepTime);
         logger.info("/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
         return "Hello World";
+        
     }
 
     @RequestMapping(value = "/say", method = RequestMethod.GET)
