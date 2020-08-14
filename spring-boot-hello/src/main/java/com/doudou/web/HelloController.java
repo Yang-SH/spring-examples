@@ -13,6 +13,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index(){
+        //自定义实现对hello接口的访问次数统计
         counterService.increment("didispace.hello.count");
 
         return "Hello World";

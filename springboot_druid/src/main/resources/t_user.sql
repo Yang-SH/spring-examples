@@ -20,9 +20,9 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `t_user`;
 CREATE TABLE `t_user` (
-  `t_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '±‡∫≈',
-  `t_name` varchar(30) DEFAULT NULL COMMENT '√˚≥∆',
-  `t_age` int(10) DEFAULT NULL COMMENT 'ƒÍ¡‰',
-  `t_address` varchar(100) DEFAULT NULL COMMENT 'º“Õ•◊°÷∑',
+  `t_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ÁºñÂè∑',
+  `t_name` varchar(30) DEFAULT NULL COMMENT 'ÂêçÁß∞',
+  `t_age` int(10) DEFAULT NULL COMMENT 'Âπ¥ÈæÑ',
+  `t_address` varchar(100) DEFAULT NULL COMMENT 'ÂÆ∂Â∫≠‰ΩèÂùÄ',
   PRIMARY KEY (`t_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
