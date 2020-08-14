@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-hello-service/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-Cloud/pom.xml" />
       </list>
     </option>
   </component>

@@ -4,10 +4,10 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 /**
- * WebApplicationInitializer¼Ì³ĞWebApplicationInitializer£¬
- * WebApplicationInitializer¿ÉÒÔ¿´×öÊÇWeb.xmlµÄÌæ´ú£¬ËüÊÇÒ»¸ö½Ó¿Ú¡£
- * Í¨¹ıÊµÏÖWebApplicationInitializer£¬ÔÚÆäÖĞ¿ÉÒÔÌí¼Óservlet£¬listenerµÈ£¬
- * ÔÚ¼ÓÔØWebÏîÄ¿µÄÊ±ºò»á¼ÓÔØÕâ¸ö½Ó¿ÚÊµÏÖÀà£¬´Ó¶øÆğµ½web.xmlÏàÍ¬µÄ×÷ÓÃ¡£
+ * WebApplicationInitializerç»§æ‰¿WebApplicationInitializerï¼Œ
+ * WebApplicationInitializerå¯ä»¥çœ‹åšæ˜¯Web.xmlçš„æ›¿ä»£ï¼Œå®ƒæ˜¯ä¸€ä¸ªæ¥å£ã€‚
+ * é€šè¿‡å®ç°WebApplicationInitializerï¼Œåœ¨å…¶ä¸­å¯ä»¥æ·»åŠ servletï¼Œlistenerç­‰ï¼Œ
+ * åœ¨åŠ è½½Webé¡¹ç›®çš„æ—¶å€™ä¼šåŠ è½½è¿™ä¸ªæ¥å£å®ç°ç±»ï¼Œä»è€Œèµ·åˆ°web.xmlç›¸åŒçš„ä½œç”¨ã€‚
  *
  */
 public class ServletInitializer extends SpringBootServletInitializer {
